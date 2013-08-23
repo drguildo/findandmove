@@ -71,7 +71,7 @@ public class FindAndMove extends SimpleFileVisitor<Path> {
   }
 
   private static void usage() {
-    System.err.println("usage findandmove [-t] <pattern> <directory>");
+    System.err.println("usage findandmove [-t] <pattern> [directory]");
     System.exit(-1);
   }
 
