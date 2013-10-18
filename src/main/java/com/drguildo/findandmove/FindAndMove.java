@@ -15,6 +15,7 @@ import java.util.regex.Pattern;
 public class FindAndMove extends SimpleFileVisitor<Path> {
   private static Pattern pattern;
   private static Path destDir;
+  // print what will happen instead of performing it
   private static boolean test = false;
 
   public static void main(String[] args) throws IOException {
